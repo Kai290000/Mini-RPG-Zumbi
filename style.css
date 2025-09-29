@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+    --branco: #e7ecefff;
+    --azul-angelo: #274c77ff;
+    --azul-claro: #6096baff;
+    --azul-branco: #a3cef1ff;
+    --title: "Fjalla One", sans-serif;
+    --text: "SUSE Mono", sans-serif;
+}
