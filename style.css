@@ -8,3 +8,7 @@
     --title: "Fjalla One", sans-serif;
     --text: "SUSE Mono", sans-serif;
 }
+body {
+    background-color: var(--azul-branco);
+    font-family: var(--text);
+}
