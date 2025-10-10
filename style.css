@@ -24,9 +24,9 @@ main{
 }
 button {
     font-family: var(--title);
-    background-color: var(--azul-claro);
-    color: var(--angelo);
-    border: 1px solid var(--angelo);
+    background-color: var(--azul-angelo);
+    color: var(--branco);
+    border: 5px double var(--branco);
     padding: 20px 30px;
     margin: 10px 0;
     cursor: pointer;
@@ -35,5 +35,6 @@ button {
 button:hover {
     background-color: var(--azul-claro);
     color: var(--angelo);
+    border: 5px double var(--angelo);
     transition: 0.5s;
 }
