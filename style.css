@@ -11,7 +11,6 @@
 }
 body {
     background-color: var(--azul-branco);
-    font-family: var(--text);
     margin: 0;
     padding: 0;
     align-items: center;
@@ -29,7 +28,7 @@ button {
     border: 5px double var(--branco);
     padding: 20px 30px;
     margin: 10px 0;
-    cursor: pointer;
+    cursor: crosshair;
     border-radius: 7px;
 }
 button:hover {
@@ -37,4 +36,14 @@ button:hover {
     color: var(--angelo);
     border: 5px double var(--angelo);
     transition: 0.5s;
+}
+.passo {
+    font-size: 20px;
+    display: none;
+}
+.passo.ativo {
+    display: block;
+}
+p {
+    font-family: var(--text);
 }
