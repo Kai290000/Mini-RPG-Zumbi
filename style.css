@@ -37,11 +37,11 @@ button:hover {
     border: 5px double var(--angelo);
     transition: 0.5s;
 }
-.passo {
+.etapa {
     font-size: 20px;
     display: none;
 }
-.passo.ativo {
+.etapa.ativo {
     display: block;
 }
 p {
